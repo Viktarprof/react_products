@@ -1,0 +1,22 @@
+.header_container{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(120deg, #fffb00 29% ,#8a949d 71%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+   font-size: 30px;
+    color: rgb(91, 89, 229);
+    cursor: pointer;
+}
+.header_links{
+    display: flex;
+    gap:50px;
+}
+.header_links a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}

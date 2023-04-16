@@ -1,0 +1,12 @@
+.about_container{
+    width: 100%;
+    height: 500px;
+    background-color:#f0eabc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_text{
+    width: 800px;
+    text-align: justify;
+}

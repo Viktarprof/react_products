@@ -1,0 +1,39 @@
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #acc2ea;
+    box-shadow: 1px 1px 7px 1px black;
+}
+.card:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    box-shadow: inset 1px 1px 20px 5px rgb(251, 255, 20);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.star{
+    margin: 10px;
+    size:30px;
+    color: #ffc107;
+    animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(0.7);
+    }
+    50% {
+      transform: scale(1.7);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+
+.emptyStar{
+    margin: 10px;
+    color: #e4e5e9;
+}
