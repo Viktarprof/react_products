@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import { product_req } from './components/request/Request'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/Header/Header'
 import HomePages from './components/Pages/HomePages/HomePages'
 import AboutPages from './components/Pages/AboutPages/AboutPages'
