@@ -6,7 +6,7 @@
 }
 .card{
     width: 300px;
-      height: 100vh;
+    /* height: 100vh; */
     margin: 10px;
 }
 .btns{
@@ -34,8 +34,8 @@ button{
 }
 button:nth-child(1){
     background-color: #ff5561;  
-    
 }
+
 button:nth-child(1):hover::after{
     content:'X';
     font-size: 10px;   
