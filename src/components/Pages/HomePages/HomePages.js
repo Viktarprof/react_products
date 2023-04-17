@@ -5,7 +5,7 @@ function HomePages() {
   return (
     <div className={s.home_container}>
         <div className={s.home_text}>
-        <marquee behavior="scroll" direction="left">Ссылка на код в index.html</marquee>
+        <marquee behavior="scroll" direction="left"> <a href='https://github.com/Viktarprof/ReactHW/tree/main/HW4(react_products)/myapp'> Ссылка на код :)</a></marquee>
         Добро пожаловать в наш онлайн магазин!
           <br/>
           <br/>
