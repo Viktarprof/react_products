@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
         <Header/>
-            <Router hashType='hashbang'>
+            <Router hashType='slash'>
                 <Routes>
                     <Route path='/' element={<HomePages/>}/>
                     <Route path='/about' element={<AboutPages/>}/>
