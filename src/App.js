@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import { product_req } from './components/request/Request'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header/Header'
 import HomePages from './components/Pages/HomePages/HomePages'
 import AboutPages from './components/Pages/AboutPages/AboutPages'
@@ -28,7 +28,6 @@ function App() {
   return (
     <div>
         <Header/>
-            <Router>
                 <Routes>
                     <Route path='/' element={<HomePages/>}/>
                     <Route path='/about' element={<AboutPages/>}/>
@@ -39,7 +38,6 @@ function App() {
                         products = {products}/>}/>
                     <Route path='*' element={<NotFoundPages/>}/>
                 </Routes>
-            </Router>
         <Footer/>
     </div>
   )
